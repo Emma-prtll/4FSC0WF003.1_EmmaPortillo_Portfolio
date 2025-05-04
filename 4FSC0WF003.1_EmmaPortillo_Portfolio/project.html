@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link id="favicon" rel="icon" type="image/x-icon" href="img/logo/EP_Favicon.png">
+    <title>Project - Emma Portillo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <section class="container" id="project-container">
+
+        <div id="nav-container">
+            <a href="index.html" class="nav">HOME</a>
+            <div id="logo-container">
+                <a href="index.html">
+                    <!-- LOGO -->
+                <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 223.5 162.98">
+                    <g id="Calque_2" data-name="Calque 2">
+                      <g id="Calque_1-2" data-name="Calque 1">
+                        <path class="cls-1" d="M172.55,0H133.24c-6.56,0-12.72,0-18.53,0h-.56l-.78,0-.27,0-.4,0H23.21A20.29,20.29,0,0,0,13,2.81,23.75,23.75,0,0,0,0,24V139.2a23.77,23.77,0,0,0,16.83,22.73,20.45,20.45,0,0,0,5.61,1h.22l.55,0H112.7l.25,0q.6,0,1.2,0a23.78,23.78,0,0,0,23.77-23.77V101.79c1.12.08,2.26.13,3.4.13h31.23A51,51,0,0,0,223.5,51h0A51,51,0,0,0,172.55,0Zm-125,40.82H90.38V61.07H47.54Zm0,61.06H90.38v20.22H47.54ZM184.49,51h0A21.09,21.09,0,0,1,163.4,72.08H138.9a9.83,9.83,0,0,1-9.51-9.83V39.73a9.83,9.83,0,0,1,9.51-9.83h24.5A21.09,21.09,0,0,1,184.49,51Z" fill="#B0BDF7"/>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+            </div>
+            <a href="contact.html" class="nav">CONTACT</a>
+        </div>
+        <section id="project-content">
+            <div id="select-page-container">
+                <div id="select-page">
+                    <button class="page-button" id="button-slider" onclick="changePage(0)">Illustrations</button>
+                    <button class="page-button" id="button-gallery" onclick="changePage(1)">Gallery</button>
+                    <div id="selected-page"></div>
+                </div>
+            </div>
+            <div id="slider-container" >
+                <div id="slider-txt-container">
+                    <div id="slider-txt">
+                        <h1 id="posters-title">Fictional posters</h1>
+                        <p id="posters-secondTitle">Made on Adobe Illustrator</p>
+                        <p id="posters-txt">These posters were created for the sole purpose of improving my use of Adobe Illustrator software. These posters represent rappers I like, and I created the composition myself.</p>
+                    </div>
+                </div>
+                <div id="slider">
+                    <div id="slides">
+                        <img class="slide" src="img/affiche/DAMSO.png" alt="Fictional posters about Damso">   
+                        <img class="slide" src="img/affiche/NEKFEU.png" alt="Fictional posters about Nekfeu">   
+                        <img class="slide" src="img/affiche/ORELSAN.png" alt="Fictional posters about Orelsan">   
+                        <img class="slide" src="img/affiche/PLK.png" alt="Fictional posters about PLK">   
+                        <img class="slide" src="img/affiche/MS.png" alt="Fictional posters about Menace Santana">   
+                        <img class="slide" src="img/affiche/SDM.png" alt="Fictional posters SDM">   
+                        <img class="slide" src="img/affiche/FAVE.png" alt="Fictional posters Favé">   
+                        <img class="slide" src="img/affiche/KERCHAK.png" alt="Fictional posters about Kerchak">   
+                        <img class="slide" src="img/affiche/ZIAK.png" alt="Fictional posters about Ziak">   
+
+                    </div>
+                    <div id="slider-buttons">
+                        <button id="prev" onclick="prevSlide()">&#11164;</button>
+                        <button id="stop">||</button>
+                        <button id="play">></button>
+                        <button id="next" onclick="nextSlide()">&#11166;</button>
+                    </div>
+                </div>
+            </div>
+            <div id="gallery-container" class="hidden">
+            <div id="gallery-containt">
+                <div id="gallery">
+
+                <div id="behance-path">
+                    <h2 class="behance-txt">Want to see more ?</h2>
+                    <h2 class="behance-txt">Go check my <a href="https://www.behance.net/emmaportillo1">behance</a></h2>
+                </div>
+
+                <div id="gallery-img">
+                    <img id="img-aurea" src="img/gallery/aurea2@2x.png" alt="Logo d'aurea">
+                    <img id="img-quarix" src="img/gallery/quarix@2x.png" alt="Logo de Quarix">
+                    <img id="img-taiso" src="img/gallery/taiso@2x.png" alt="Logo de Taïso">
+                    <img id="img-gig" src="img/gallery/gig@2x.png" alt="Logo de Gig">
+                </div>
+                <section id="gallery-infos">
+                <article id="aurea" class="hidden">
+                    <div class="gallery-project-container">
+                    <div class="gallery-txt-container">
+                        <div class="gallery-txt" >
+                            <h3>AUREA</h3>
+                            <p class="gallery-desc">It's a school project. We were asked to create a website and a brand image for a restaurant. I had to create the logo, choose the typefaces and colors for the design part. And I coded the site in HTML and CSS.</p>
+                            <div class="logo-logiciel-container">
+                                <img class="logo-logiciel" src="img/logo/figma.png" alt="Logo de Figma">
+                                <img class="logo-logiciel" src="img/logo/illustrator.png" alt="Logo d'Illustrator">
+                                <img class="logo-logiciel" src="img/logo/html.png" alt="Logo d'HTML">
+                                <img class="logo-logiciel" src="img/logo/css.png" alt="Logo de CSS">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <img id="aureaExemple" class="project-gallery-img" src="img/gallery/aureaExemple.png" alt="Image d'illustration d'Aurea">
+                    </div>
+                </article>
+
+                <article id="quarix" class="hidden">
+                    <div class="gallery-project-container">
+                    <div class="gallery-txt-container">
+                        <div class="gallery-txt" >
+                            <h3>QUARIX</h3>
+                            <p class="gallery-desc">Quarix is an e-commerce company. It regularly updates its products to keep up with market trends. So I've often helped redesign the site, but mostly I've updated the logos and favicon to match the site's theme. In this case, Quarix sold pet supplies.</p>
+                            <div class="logo-logiciel-container">
+                                <img class="logo-logiciel" src="img/logo/shopify.png" alt="Logo de Shopify">
+                                <img class="logo-logiciel" src="img/logo/illustrator.png" alt="Logo d'Illustrator">
+                            </div>
+                        </div>
+                    </div>
+                    <img id="quarixExemple" class="project-gallery-img" src="img/gallery/quarixExemple.png" alt="Image d'Illustration de Quarix">
+                    </div>
+                </article>
+
+                <article id="taiso" class="hidden">
+                        <div class="gallery-project-container">                    
+                            <div class="gallery-txt-container">
+                            <div class="gallery-txt" >
+                                <h3>TAÏSO</h3>
+                                <p class="gallery-desc">Taïso is a fictional brand. I had to create a healthy snack brand for athletes. All the while keeping a zen and calm spirit. So I made a logo, a brand image, sample posts for social networks and mockups to make this idea as realistic as possible.</p>
+                                <div class="logo-logiciel-container">
+                                    <img class="logo-logiciel" src="img/logo/photoshop.png" alt="Logo de Photoshop">
+                                    <img class="logo-logiciel" src="img/logo/illustrator.png" alt="Logo d'Illustrator">
+                                </div>
+                            </div>
+                        </div>
+                        <img id="taisoExemple" class="project-gallery-img" src="img/gallery/taisoExemple.png" alt="Image d'illustration de Taïso">
+                    </div>
+                </article>
+
+                <article id="gig" class="hidden">
+                    <div class="gallery-project-container">
+                    <div class="gallery-txt-container">
+                        <div class="gallery-txt" >
+                            <h3>GIG</h3>
+                            <p class="gallery-desc">Gig is an application that brings together all musical events. Thanks to Gig, you can find out about all the concerts and festivals going on near you, or organize your outings with friends and family.</p>
+                            <div class="logo-logiciel-container">
+                                <img class="logo-logiciel" src="img/logo/figma.png" alt="Logo de Figma">
+                                <img class="logo-logiciel" src="img/logo/illustrator.png" alt="Logo d'Illustrator">
+                            </div>
+                        </div>
+                    </div>
+                    <img id="gigExemple" class="project-gallery-img" src="img/gallery/gigExemple.png" alt="Image d'illustration de Gig">
+                    </div>
+                </article>
+            </section>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- BACKGROUND -->
+        <section id="project-background">
+            <div class="round" id="a"></div>
+            <div class="round" id="b"></div>
+            <div class="round" id="c"></div>
+            <div class="round" id="d"></div>
+            <div class="round" id="e"></div>
+            <div class="round" id="f"></div>
+            <div class="round" id="g"></div>
+        </section>
+    </section>
+    
+<script src="js/index.js"></script>
+</body>
+</html>
